@@ -15,9 +15,9 @@ const FILES_TO_CACHE = [
   
   // install
   self.addEventListener("install", function(evt) {
-    evt.waitUntil(
-        caches.open(DATA_CACHE_NAME).then((cache => cache.add("/assets/images"))  
-  ));  
+//     evt.waitUntil(
+//         caches.open(DATA_CACHE_NAME).then((cache => cache.add("/assets/images"))  
+//   ));  
     evt.waitUntil(
       caches.open(CACHE_NAME).then(cache => {
         console.log("Your files were pre-cached successfully!");
@@ -82,4 +82,4 @@ const FILES_TO_CACHE = [
   
     });
 
-console.log("Hello from service worker! :)");
+console.log("Hello from service worker! :) ");
