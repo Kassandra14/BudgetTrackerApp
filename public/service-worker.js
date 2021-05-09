@@ -70,8 +70,7 @@ const FILES_TO_CACHE = [
       return;
     }
   
-    // if the request is not for the API, serve static assets using "offline-first" approach.
-    // see https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook#cache-falling-back-to-network
+  
     evt.respondWith(
       caches.open(CACHE_NAME).then(cache => {    
       return cache.match(evt.request).then(function(response) {
@@ -82,4 +81,4 @@ const FILES_TO_CACHE = [
   
     });
 
-console.log("Hello from service worker! :) ");
+console.log("Hello from service worker! i just like adding this :) ");

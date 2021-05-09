@@ -87,33 +87,4 @@
 });
 
 
-/***/ //"./assets/js/domMethods.js":
-/*!*********************************!*\
-  !*** ./assets/js/domMethods.js ***!
-  \*********************************/
-/*! exports provided: renderArticles, createElement */
-    // (function(module, __webpack_exports__, __webpack_require__) {
 
-    
-    //  });
-    /*!****************************!*\
-      !*** ./assets/js/index.js ***!
-      \****************************/
-    /*! no exports provided */
-    // /***/ (function(module, __webpack_exports__, __webpack_require__) {
-    
-   
-    
-    /***/// "./assets/js/indexedDb.js":
-    /*!********************************!*\
-      !*** ./assets/js/indexedDb.js ***!
-      \********************************/
-    /*! exports provided: checkForIndexedDb, useIndexedDb */
-   
-    
-    /***/// "./assets/js/utils.js":
-    /*!****************************!*\
-      !*** ./assets/js/utils.js ***!
-      \****************************/
-    // /*! exports provided: createArticleIds, getParams, formatDate, removeSpecialCharsFromString */
-    // /***/ (function(module, __webpack_exports__, __webpack_require__) {
